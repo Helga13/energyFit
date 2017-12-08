@@ -1,0 +1,10 @@
+@include font-face('VollkornRegular', "../fonts/VollkornRegular" ,null, null, ttf eot woff svg);
+@include font-face('VollkornItalic', "../fonts/VollkornItalic" ,null, null, ttf eot woff svg);
+@include font-face('VollkornBold', "../fonts/VollkornBold" ,null, null, ttf eot woff svg);
+@include font-face('VollkornBoldItalic', "../fonts/VollkornBoldItalic" ,null, null, ttf eot woff svg);
+@include font-face('VollkornSemiBoldItalic', "../fonts/VollkornSemiBoldItalic" ,null, null, ttf eot woff svg);
+
+$link: #dc7235; 
+$link_hover: #e38c03; 
+$btn_bg: #d03f01;
+$btn_bg_hover: #ec4d09;
