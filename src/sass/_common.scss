@@ -60,20 +60,40 @@ ol{
 
 input,
 textarea {
-  
-  &:hover,
+  width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+  border: 3px solid #eaeaea;
+  outline: none;
+  padding: 13px 7px;
+  font-family: 'VollkornRegular', $font-stack-helvetica;	
+  transition: border-color .3s ease; 
+  &:hover{
+    border-color: #bbbbbb;
+  }
   &:active,
   &:focus {
-    
+    border-color: $btn_bg;
   }
 }
 
+textarea{
+  resize: vertical;
+}
+
 label {
-  
+  display: inline-block;
+  width: 100%;
+  color: #5d5d5d;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 6px 10px;
 }
 
 p {
   margin-bottom: 18px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .wrap {
@@ -108,7 +128,7 @@ p {
   display: inline-block;
   width: 226px;
   padding: 16px 0;
-  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
   transition: background-color .3s ease, box-shadow .3s ease;
   &:hover,
   &:focus,
@@ -139,12 +159,25 @@ h2{
   text-align: center;
 }
 
+.text_title,
 h3{
-  color: #1b1b1b;
+  color: #474747;
   font-family: 'VollkornBold', $font-stack-helvetica;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 22px;
+  line-height: 26px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.right_col{
+  .title,
+  .subtitle,
+  .text_title,
+  h1,
+  h2,
+  h3{
+    text-align: left;
+  }
 }
 
 .link{
@@ -172,6 +205,10 @@ h3{
   &:active{
     color: $link_hover;
   }
+}
+
+.p_bottom_100{
+  padding-bottom: 100px;
 }
 
 /* header */
@@ -391,6 +428,11 @@ footer{
   .contacts{
     width: 41.66%;
     padding-top: 16px;
+    position: relative;
+  }
+  .marker_block{
+    position: absolute;
+    display: none;
   }
   .map{
     width: 41.66%;
@@ -495,6 +537,78 @@ footer{
   height: 182px;
 }
 
+/* breadcrumbs */
+
+.breadcrumbs{
+  font-size: 0;
+  li{
+    font-family: 'VollkornBold', $font-stack-helvetica;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    display: inline-block;
+    &:last-child{
+      display: block;
+    }
+    a{
+      font-family: 'VollkornItalic', $font-stack-helvetica;
+      font-size: 20px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      color: #fff;
+      position: relative;
+      padding: 0 16px 0 10px;
+      text-transform: none;
+      &:after{
+        content: '/';
+        position: absolute;
+        font-family: 'VollkornItalic', $font-stack-helvetica;
+        font-size: 20px;
+        line-height: 20px;
+        right: 0;
+        top: 6px;
+      }
+    }
+  }
+}
+
+/* tabs */
+
+.tabs_content{
+  display: none;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 22px;
+  &.active{
+    display: block;
+  }
+}
+
+.tabs_caption{
+  .tab{
+    cursor: pointer;
+    display: inline-block;
+    color: #1b1b1b;
+    font-size: 35px;
+    line-height: normal;
+    font-family: 'VollkornBold', $font-stack-helvetica;
+    margin-right: 24px;
+    opacity: .7;
+    border-bottom: 3px solid transparent;
+    transition: opacity .3s ease, border-bottom-color .3s ease;
+    &:hover,
+    &:focus,
+    &:active{
+      opacity: 1;
+    }
+    &.active{
+      opacity: 1;
+      border-bottom-color: $btn_bg;
+    }
+  }
+}
+
 /* main */
 
 main{
@@ -528,6 +642,20 @@ main{
     width: 528px;
     background: url('../img/illustrations/SportBody.png') center no-repeat;
     background-size: auto 100%;
+  }
+  &.inner{
+    padding: 30px 0 232px;
+    &:after{
+      top: 0;
+      left: 43%;
+      width: 528px;
+      background: url('../img/illustrations/SportBody_girl.png') center no-repeat;
+    }
+    .slogan{
+      width: 81.666%;
+      text-align: center;
+      padding: 22px 20px 30px 20px;
+    }
   }
 }
 
@@ -750,6 +878,13 @@ main{
   .link{
     position: relative;
   }
+  &.choice{
+    padding: 26px;
+    .text{
+      color: #5b5a5a;
+      padding: 7px 0 20px;
+    }
+  }
 }
 
 .personal_trainer{
@@ -867,4 +1002,177 @@ main{
       }
     }
   }
+}
+
+.content{
+  padding-bottom: 24px;
+}
+
+.left_col{
+  width: 33.333%;
+}
+
+.right_col{
+  width: 66.666%;
+  .subtitle,
+  h2{
+    padding-bottom: 17px;
+  }
+  .text_title,
+  h3{
+    
+  }
+  .rewards{
+    margin: 0 -6px;
+    padding: 26px 0 48px;
+    img{
+      margin: 0 6px;
+    }
+  }
+}
+
+.coach_selection{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.table{
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  margin: 36px 0 92px;
+}
+
+.table_item{
+  width: 50%;
+  .subtitle{
+    text-align: left;
+  }
+  td:first-child,
+  th:first-child{
+    width: 66.666%;
+  }
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+td,
+th{
+  border: 1px solid #eaeaea;
+  width: 33.333%;
+  padding: 13px 10px;
+}
+
+th{
+  text-align: left;
+  font-weight: normal;
+  font-family: 'VollkornBold', $font-stack-helvetica;
+  padding-top: 26px;
+}
+
+.stock_block{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  .col{
+    width: 33.333%;
+  }
+  .stock_item{
+    border: 1px solid #eaeaea;
+    padding: 35px 20px;
+    position: relative;
+    min-height: 258px;
+    &:after{
+      content: '';
+      position: absolute;
+      border: 1px solid #eaeaea;
+      top: 9px;
+      right: 9px;
+      bottom: 9px;
+      left: 9px;
+    }
+  }
+  .title{
+    text-align: left;
+    color: #fff;
+    position: relative;
+    font-size: 22px;
+    line-height: 26px;
+    z-index: 1;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: -25px;
+      background-color: $btn_bg;
+      z-index: -1;
+    }
+  }
+  .text{
+    color: #5b5a5a;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.contacts_section{
+  .col{
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  .subtitle{
+    text-align: left;
+  }
+  textarea{
+    min-height: 220px;
+  }
+}
+
+.contact_item{
+  padding-bottom: 20px;
+  .key{
+    font-family: 'VollkornBold', $font-stack-helvetica;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+  .value{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.form{
+  @include clearfix;
+  .btn{
+    float: right;
+    margin-top: 20px;
+  }
+}
+
+.choice{
+  .btn{
+    width: 278px;
+  }
+}
+
+.center_column{
+  padding-top: 84px;
+}
+
+.simple_text{
+  width: 66.666%;
+  margin: 0 auto;
 }

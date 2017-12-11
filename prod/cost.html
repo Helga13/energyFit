@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+	<title></title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/screen.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0KNC-ZAViFHOf9PqUASYqHLSTZHc4amI"></script>
+    <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <div class="wrap">
+    <a href="/" class="logo_block"><img src="img/header_logo.png" alt="Тренажерный зал">Тренажерный зал</a>
+    <a href="https://www.google.by/maps/place/улица+Лобанка+77,+Минск/@53.8896888,27.426601,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbdae09a3577bb:0x8a262f13e304af9b!8m2!3d53.8896888!4d27.4287897" class="location js-popupMap">
+      <span class="caption">Адрес зала: </span>
+      <span class="address">г. Минск ул. Лобанка, 77</span>
+    </a>
+    <div class="header_phones">
+      <span class="caption">Телефоны:</span>
+      <div class="phones_dropdown">
+        <a href="tel:+375293737887">+375 (29) 37-37-887</a>
+        <a href="tel:+375291682792">+375 (29) 168-27-92</a>
+      </div>
+    </div>
+    <div class="burger_menu">
+      <div class="menu_icon">
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>Меню
+    </div>
+    <div class="popup_nav_overlay">
+      <div class="popup_nav">
+        <div class="popup_nav_wrap">
+          <div class="nav_close_block">
+          <div class="nav_close">Меню</div>
+        </div>
+          <nav>
+            <div class="menu_block">
+          <div class="heading">Услуги</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">Персональный тренинг</a></li>
+            <li><a href="#" class="nav_link">Составление рациона питания</a></li>
+            <li><a href="#" class="nav_link">Составленеи программы тренировок</a></li>
+            <li><a href="#" class="nav_link">Все услуги...</a></li>
+          </ul>
+        </div>
+            <div class="menu_block">
+          <div class="heading">Цены</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">Стоимость услуг</a></li>
+            <li><a href="#" class="nav_link">Акции</a></li>
+          </ul>
+        </div>
+            <div class="menu_block">
+          <div class="heading">Информация</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">О Energy Gym</a></li>
+            <li><a href="#" class="nav_link">Команда</a></li>
+            <li><a href="#" class="nav_link">Галерея</a></li>
+            <li><a href="#" class="nav_link">Новости</a></li>
+            <li><a href="#" class="nav_link">Контакты</a></li>
+          </ul>
+        </div>
+          </nav>
+          <div class="btn_block">
+          <a href="#" class="btn dark js-btn" data-id="questio-form">Задать вопрос</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+  <section class="top_banner inner">
+    <div class="wrap">
+      <div class="logo_main"><img src="img/logo.png" alt=""></div>
+      <div class="slogan">
+        <ul class="slogan_inner breadcrumbs">
+          <li><a href="/">Energy gym</a></li>
+          <li>Стоимость</li>
+        </ul>
+      </div>
+    </div> 
+  </section>
+  <section class="cost_section">
+    <div class="wrap">
+      <div class="tabs_block">
+       <ul class="tabs_caption">
+          <li class="tab active">Абонементы</li>
+          <li class="tab">Безлимиты</li>
+        </ul>
+        <div class="tabs_content active">
+          <div class="table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Вид абонемента</th>
+                  <th>до 16:00</th>
+                  <th>любое время</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Разовое посещение</td>
+                  <td>8 р.</td>
+                  <td>9 р.</td>
+                </tr>
+                <tr>
+                  <td>4 занятия</td>
+                  <td>40 р.</td>
+                  <td>50 р.</td>
+                </tr>
+                <tr>
+                  <td>8 занятий</td>
+                  <td>70 р.</td>
+                  <td>80 р.</td>
+                </tr>
+                <tr>
+                  <td>12 занятий</td>
+                  <td>100 р.</td>
+                  <td>140 р.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row">
+            <div class="col table_item">
+              <div class="subtitle">Персональный тренинг</div>
+              <div class="table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Количество тренировок</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1 тренировка</td>
+                      <td>90 р.</td>
+                    </tr>
+                    <tr>
+                      <td>2 тренировки</td>
+                      <td>150 р.</td>
+                    </tr>
+                    <tr>
+                      <td>3 тренировки</td>
+                      <td>280 р.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col table_item">
+              <div class="subtitle">Услуги планирования</div>
+              <div class="table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Вид плана</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Рацион питания на 2 месяца</td>
+                      <td>20 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Программа тренировок на 1 месяц</td>
+                      <td>30 р.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs_content">
+          <div class="table">
+           <table>
+              <thead>
+                <tr>
+                  <th>Вид абонемента</th>
+                  <th>любое время</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Разовое посещение</td>
+                  <td>9 р.</td>
+                </tr>
+                <tr>
+                  <td>8 занятий</td>
+                  <td>68 р.</td>
+                </tr>
+                <tr>
+                  <td>12 занятий</td>
+                  <td>80 р.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row">
+            <div class="col table_item">
+              <div class="subtitle">Персональный тренинг</div>
+              <div class="table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Количество тренировок</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1 тренировка</td>
+                      <td>90 р.</td>
+                    </tr>
+                    <tr>
+                      <td>2 тренировки</td>
+                      <td>150 р.</td>
+                    </tr>
+                    <tr>
+                      <td>3 тренировки</td>
+                      <td>280 р.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col table_item">
+              <div class="subtitle">Услуги планирования</div>
+              <div class="table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Вид плана</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Рацион питания на 2 месяца</td>
+                      <td>20 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Программа тренировок на 1 месяц</td>
+                      <td>30 р.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stock_section p_bottom_100">
+    <div class="wrap">
+      <div class="subtitle"><a href="#" class="link_title">Наши акции</a></div>
+      <div class="row stock_block">
+        <div class="col">
+          <div class="stock_item">
+            <div class="title">Скидки для студентов</div>
+            <div class="text">После предъявления студенческого билета (очное отделение) можно преобрести абонемент на 8 занятий за 40 р. и/или абонемент на 12 занятий за 55 р.</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="stock_item">
+            <div class="title">Свободный вход для детей</div>
+            <div class="text">Детям до 14 лет вход бесплатный (только с тренером или в сопровождении родителей). Детям до 16 скидка на все абонементы 50% (кроме персональных тренировок)</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="stock_item">
+            <div class="title">Бесплатное занятие!</div>
+            <div class="text">Мы дарим Вам первое посещение, чтобы был повод стать ближе. Тренеруйтесь бесплатно, изучайте зал, знакомьтесь с командой и становитесь частью нашей большой семьи!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer_top">
+      <nav>
+        <ul>
+          <li><a href="#" class="link">Услуги</a></li>
+          <li><a href="#" class="link">Галерея</a></li>
+          <li><a href="#" class="link">Команда</a></li>
+          <li><a href="#" class="link">Цены</a></li>
+          <li><a href="#" class="link">Акции</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row footer_middle">
+      <div class="col footer_logo"><img src="img/logo.png" alt=""></div>
+      <div class="col contacts">
+        <div class="heading">Контакты</div>
+        <div class="footer_location">
+          <span class="caption">Адрес зала: </span>
+          <span class="address">г. Минск ул. Лобанка, 77</span>
+        </div>
+        <div class="footer_phones">
+          <span class="caption">Телефоны:</span>
+          <div class="phones_dropdown">
+            <a href="tel:+375293737887" class="link">+375 (29) 37-37-887</a>
+            <a href="tel:+375291682792" class="link">+375 (29) 168-27-92</a>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/energy_fit_by/" class="link insta">energy_fit_by</a>
+          <a href="https://vk.com/energy_fit_by" class="link vk">energy_fit_by</a>
+        </div>
+      </div>
+      <div class="col map">
+        <div class="marker_block">
+		  <div class="maps pin1" data-longitude="53.8896888" data-latitude="27.426601"></div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="copyright">&copy; 2017 All Rights Reserved</div>
+      <a href="http://skyweb.by" class="skyweb">Разработка сайта: <span>SkyWeb</span></a>
+      <a href="#" class="skyweb">Дизайн и иллюстрации: <span>Shakevich</span></a>
+    </div>
+  </div>
+</footer>
+<script src="js/common.js"></script>
+</body>
+</html>

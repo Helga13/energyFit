@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+	<title></title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/screen.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0KNC-ZAViFHOf9PqUASYqHLSTZHc4amI"></script>
+    <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <div class="wrap">
+    <a href="/" class="logo_block"><img src="img/header_logo.png" alt="Тренажерный зал">Тренажерный зал</a>
+    <a href="https://www.google.by/maps/place/улица+Лобанка+77,+Минск/@53.8896888,27.426601,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbdae09a3577bb:0x8a262f13e304af9b!8m2!3d53.8896888!4d27.4287897" class="location js-popupMap">
+      <span class="caption">Адрес зала: </span>
+      <span class="address">г. Минск ул. Лобанка, 77</span>
+    </a>
+    <div class="header_phones">
+      <span class="caption">Телефоны:</span>
+      <div class="phones_dropdown">
+        <a href="tel:+375293737887">+375 (29) 37-37-887</a>
+        <a href="tel:+375291682792">+375 (29) 168-27-92</a>
+      </div>
+    </div>
+    <div class="burger_menu">
+      <div class="menu_icon">
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>Меню
+    </div>
+    <div class="popup_nav_overlay">
+      <div class="popup_nav">
+        <div class="popup_nav_wrap">
+          <div class="nav_close_block">
+          <div class="nav_close">Меню</div>
+        </div>
+          <nav>
+            <div class="menu_block">
+          <div class="heading">Услуги</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">Персональный тренинг</a></li>
+            <li><a href="#" class="nav_link">Составление рациона питания</a></li>
+            <li><a href="#" class="nav_link">Составленеи программы тренировок</a></li>
+            <li><a href="#" class="nav_link">Все услуги...</a></li>
+          </ul>
+        </div>
+            <div class="menu_block">
+          <div class="heading">Цены</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">Стоимость услуг</a></li>
+            <li><a href="#" class="nav_link">Акции</a></li>
+          </ul>
+        </div>
+            <div class="menu_block">
+          <div class="heading">Информация</div>
+          <ul class="group">
+            <li><a href="#" class="nav_link">О Energy Gym</a></li>
+            <li><a href="#" class="nav_link">Команда</a></li>
+            <li><a href="#" class="nav_link">Галерея</a></li>
+            <li><a href="#" class="nav_link">Новости</a></li>
+            <li><a href="#" class="nav_link">Контакты</a></li>
+          </ul>
+        </div>
+          </nav>
+          <div class="btn_block">
+          <a href="#" class="btn dark js-btn" data-id="questio-form">Задать вопрос</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+  <section class="top_banner inner">
+    <div class="wrap">
+      <div class="logo_main"><img src="img/logo.png" alt=""></div>
+      <div class="slogan">
+        <ul class="slogan_inner breadcrumbs">
+          <li><a href="/">Energy gym</a></li>
+          <li>Контакты</li>
+        </ul>
+      </div>
+    </div> 
+  </section>
+  <section class="contacts_section p_bottom_100">
+    <div class="wrap">
+      <div class="row">
+        <div class="col">
+          <div class="subtitle">Контактная информация</div>
+          <div class="contact_item">
+            <div class="key">Адрес: </div>
+            <div class="value">Минск, Лобанка 77</div>
+          </div>
+          <div class="contact_item">
+            <div class="key">Время работы: </div>
+            <div class="value">ПН-ПТ с 06:30 до 23:00, СБ-ВС с 08:00 до 22:00</div>
+          </div>
+          <div class="contact_item">
+            <div class="key">Контактные телефоны: </div>
+            <div class="value">+375 (29) 37-37-887</div>
+            <div class="value">+375 (29) 16-82-792</div>
+          </div>
+          <div class="contact_item">
+            <div class="key">Почта: </div>
+            <div class="value">energy_fit@list.ru</div>
+          </div>
+        </div>
+        <div class="col form">
+          <form action="/">
+            <div class="subtitle">Обратная связь</div>
+            <div class="row">
+            <div class="col field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="col field">
+              <label for="email">Электронная почта</label>
+              <input type="email" id="email" required>
+            </div>
+          </div>
+            <div class="field">
+            <label for="message">Интересующий вопрос</label>
+            <textarea name="" id="message" placeholder="Пример: Что нужно брать с собой на тренировку?"></textarea>
+          </div>
+            <button class="btn" type="submit">Задать вопрос</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer_top">
+      <nav>
+        <ul>
+          <li><a href="#" class="link">Услуги</a></li>
+          <li><a href="#" class="link">Галерея</a></li>
+          <li><a href="#" class="link">Команда</a></li>
+          <li><a href="#" class="link">Цены</a></li>
+          <li><a href="#" class="link">Акции</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row footer_middle">
+      <div class="col footer_logo"><img src="img/logo.png" alt=""></div>
+      <div class="col contacts">
+        <div class="heading">Контакты</div>
+        <div class="footer_location">
+          <span class="caption">Адрес зала: </span>
+          <span class="address">г. Минск ул. Лобанка, 77</span>
+        </div>
+        <div class="footer_phones">
+          <span class="caption">Телефоны:</span>
+          <div class="phones_dropdown">
+            <a href="tel:+375293737887" class="link">+375 (29) 37-37-887</a>
+            <a href="tel:+375291682792" class="link">+375 (29) 168-27-92</a>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/energy_fit_by/" class="link insta">energy_fit_by</a>
+          <a href="https://vk.com/energy_fit_by" class="link vk">energy_fit_by</a>
+        </div>
+      </div>
+      <div class="col map">
+        <div class="marker_block">
+		  <div class="maps pin1" data-longitude="53.8896888" data-latitude="27.426601"></div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="copyright">&copy; 2017 All Rights Reserved</div>
+      <a href="http://skyweb.by" class="skyweb">Разработка сайта: <span>SkyWeb</span></a>
+      <a href="#" class="skyweb">Дизайн и иллюстрации: <span>Shakevich</span></a>
+    </div>
+  </div>
+</footer>
+<script src="js/common.js"></script>
+</body>
+</html>

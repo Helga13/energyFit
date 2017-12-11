@@ -3,3 +3,4 @@
 //= lib/jquery.fancybox.min.js
 
 //= app.js
+//= lib/map.js
