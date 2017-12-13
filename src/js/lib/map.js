@@ -1,6 +1,3 @@
-if (document.getElementById('map')) {
-	//console.log('Map exist');
-	$(function () {})
 	var styles = [
     {
         "featureType": "all",
@@ -195,6 +192,33 @@ if (document.getElementById('map')) {
 		map.setMapTypeId('tehgrayz');
 		setMarkers(map);
 	}
+
+    function initMapPopup() {
+		var myOptions = {
+			zoom: 14
+			, center: new google.maps.LatLng(53.8896888, 27.426601)
+			, scrollwheel: false
+			, mapTypeControl: false
+			, streetViewControl: false
+			, navigationControl: true
+            , zoomControl: true
+			, zoomControlOptions: {
+				style: google.maps.ZoomControlStyle.SMALL
+				, position: google.maps.ControlPosition.LEFT_TOP
+			}
+			, mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']
+			}
+		};
+		var map = new google.maps.Map(document.getElementById('map_popup'), myOptions);
+		var mapType = new google.maps.StyledMapType(styles, {
+			name: "Grayscale"
+		});
+		map.mapTypes.set('tehgrayz', mapType);
+		map.setMapTypeId('tehgrayz');
+		setMarkers(map);
+	}
+
 	var beaches = [];
 	$('.maps').each(function (index) {
 		var cur_coords = [];
@@ -222,5 +246,11 @@ if (document.getElementById('map')) {
 			});
 		}
 	};
-	initMap();
-}
+
+//    initMapPopup();
+	initMap();	
+
+  function resizeMap() {
+    if(typeof map =="undefined") return;
+    setTimeout( function(){initMapPopup();} , 100);
+  }

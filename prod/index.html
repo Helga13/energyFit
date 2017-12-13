@@ -16,7 +16,7 @@
 <header>
   <div class="wrap">
     <a href="/" class="logo_block"><img src="img/header_logo.png" alt="Тренажерный зал">Тренажерный зал</a>
-    <a href="https://www.google.by/maps/place/улица+Лобанка+77,+Минск/@53.8896888,27.426601,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbdae09a3577bb:0x8a262f13e304af9b!8m2!3d53.8896888!4d27.4287897" class="location js-popupMap">
+    <a href="https://www.google.by/maps/place/улица+Лобанка+77,+Минск/@53.8896888,27.426601,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbdae09a3577bb:0x8a262f13e304af9b!8m2!3d53.8896888!4d27.4287897" class="location js-popupMap" data-id="popup_map">
       <span class="caption">Адрес зала: </span>
       <span class="address">г. Минск ул. Лобанка, 77</span>
     </a>
@@ -150,7 +150,7 @@
         <div class="trial_lesson_block">
           <div class="trial">Пробное занятие</div>
           <div class="free">Бесплатно!</div>
-          <a href="#" class="btn">Записаться</a>
+          <a href="#" class="btn js-popup" data-id="popup_trial">Записаться</a>
           <a href="#" class="link">Все акции</a>
         </div>
       </div>
@@ -263,7 +263,7 @@
             <div class="name">Ваше Имя</div>
             <div class="caption">Новый тренер</div>
             <div class="rewards">
-              <a href="#" class="btn">Подать заявку</a>
+              <a href="#" class="btn js-popup" data-id="popup_vacancy">Подать заявку</a>
             </div>
             <a href="#" class="link">Ищем персонального тренера</a>
           </div>
@@ -345,6 +345,129 @@
     </div>
   </div>
 </footer>
+
+<!--popup-->
+<!--map-->
+<div class="overlay popup" id="popup_map">
+  <div class="popup_content map">
+	<a href="#" class="popup_close"></a>
+	<div id="map_popup"></div>
+	<div class="contacts">
+	  <div class="text_title">Тренажерный зал ENERGY</div>
+	  <div class="contact_item address">
+	    <div class="key">Адрес зала:</div>
+	    <div class="value">г. Минск ул. Ложинская, 77</div>
+	  </div>
+	  <div class="contact_item phone">
+	    <div class="key">Телефоны:</div>
+	    <div class="value"><a href="tel:+375293737887">+375 (29) 37-37-887</a><a href="tel:+375291682792">+375 (29) 168-27-92</a></div>
+	  </div>
+	  <div class="contact_item schedule">
+	    <div class="key">График работы:</div>
+	    <div class="value">6<sup>00</sup> - 22<sup>00</sup> (будни)&nbsp;&nbsp;&nbsp;8<sup>00</sup> - 20<sup>00</sup> (выходные)</div>
+	  </div>
+	</div>
+  </div>
+</div>
+<!--entry to the coach-->
+<div class="overlay popup" id="popup_trainer">
+  <div class="popup_content">
+<!--	<a href="#" class="popup_close"></a>-->
+    <div class="subtitle">Запись к тренеру</div>
+    <div class="trainer_name">Эльмира Готовая</div>
+	<form action="/" method="post" class="form">
+	  <div class="field">
+        <label for="p_name">Имя<span class="required">*</span></label>
+        <input type="text" id="p_name" required="">
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="field">
+            <label for="p_phone">Телефон<span class="required">*</span></label>
+            <input type="text" id="p_phone" required>
+          </div>
+        </div>
+        <div class="col">
+          <div class="field">
+            <label for="level">Удобное время тренировок<span class="required">*</span></label>
+              <select class="js-select">
+                <option value="">с 6:00 до 12:00</option>
+                <option value="">с 12:00 до 15:00</option>
+                <option value="">с 15:00 до 18:00</option>
+                <option value="">с 18:00 до 22:00</option>
+              </select>
+            </div>
+          </div> 
+        </div>
+        <div class="field textarea">
+          <label for="p_message">Комментарий</label>
+          <textarea name="" id="p_message" placeholder="Пример: Что нужно брать с собой на тренировку?"></textarea>
+        </div>
+        <button class="btn" type="submit">Записаться</button>
+	</form>
+  </div>
+</div>
+<!--trial lesson-->
+<div class="overlay popup" id="popup_trial">
+  <div class="popup_content">
+<!--	<a href="#" class="popup_close"></a>-->
+    <div class="subtitle">Запись на бесплатное занятие</div>
+	<form action="/" method="post" class="form">
+      <div class="row">
+        <div class="col">
+          <div class="field">
+            <label for="pt_name">Имя<span class="required">*</span></label>
+            <input type="text" id="pt_name" required="">
+          </div>
+        </div> 
+        <div class="col">
+          <div class="field">
+            <label for="pt_phone">Телефон<span class="required">*</span></label>
+            <input type="text" id="pt_phone" required>
+          </div>
+        </div>
+        </div>
+        <div class="field textarea">
+          <label for="pt_message">Комментарий</label>
+          <textarea name="" id="pt_message" placeholder="Пример: Что нужно брать с собой на тренировку?"></textarea>
+        </div>
+        <button class="btn" type="submit">Записаться</button>
+	</form>
+  </div>
+</div>
+<!--application for vacancy-->
+<div class="overlay popup" id="popup_vacancy">
+  <div class="popup_content">
+<!--	<a href="#" class="popup_close"></a>-->
+    <div class="subtitle">Заявка на вакансию тренера</div>
+    <div class="trainer_name">Ищем нового тренера</div>
+	<form action="/" method="post" class="form" enctype="multipart/form-data">
+      <div class="row">
+        <div class="col">
+          <div class="field">
+            <label for="pv_name">Имя<span class="required">*</span></label>
+            <input type="text" id="pv_name" required="">
+          </div>
+        </div> 
+        <div class="col">
+          <div class="field">
+            <label for="pv_phone">Телефон<span class="required">*</span></label>
+            <input type="text" id="pv_phone" required>
+          </div>
+        </div>
+        </div>
+        <div class="field">
+          <div class="label">Резюме</div>
+          <label for="pv_file" class="cv">
+            <mark>Файл не выбран...</mark>
+            <input type="file" id="pv_file" placeholder="Файл не выбран...">
+          </label>
+          <span>Резюме без фотографии рассматриваться не будут.</span>
+        </div>
+        <button class="btn" type="submit">Отправить</button>
+	</form>
+  </div>
+</div>
 <script src="js/common.js"></script>
 </body>
 </html>

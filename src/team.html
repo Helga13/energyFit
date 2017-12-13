@@ -72,7 +72,7 @@
             <div class="name">Ваше Имя</div>
             <div class="caption">Новый тренер</div>
             <div class="rewards">
-              <a href="#" class="btn">Подать заявку</a>
+              <a href="#" class="btn js-popup" data-id="popup_vacancy">Подать заявку</a>
             </div>
             <a href="#" class="link">Ищем персонального тренера</a>
           </div>
@@ -86,8 +86,88 @@
         <div class="trial_lesson_block choice">
           <div class="trial">Сложно выбрать тренера?</div>
           <div class="text">Заполните простую анкету, и мы посоветуем вам подходящего тренера</div>
-          <a href="#" class="btn">Заполнить анкету</a>
+          <a href="#" class="btn js-questionnaire">Заполнить анкету</a>
         </div>
+      </div>
+      <div class="questionnaire">
+        <form action="/" method="post">
+          <div class="subtitle">Анкета для подбора персонального тренера</div>
+          <div class="item_step">
+            <div class="item_title">Личные данные</div>
+              <div class="row">
+                <div class="col">
+                  <div class="field">
+                    <label for="q_name">Имя<span class="required">*</span></label>
+                    <input type="text" id="q_name" required>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="field">
+                    <div class="label">Пол<span class="required">*</span></div>
+                    <input type="radio" id="q_male" name="gender" checked>
+                    <label for="q_male"><span>Мужчина</span></label>
+                    <input type="radio" id="q_female" name="gender">
+                    <label for="q_female"><span>Женщина</span></label>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="item_step">
+            <div class="item_title">Физическая форма</div>
+              <div class="row">
+                <div class="col">
+                  <div class="field">
+                    <label for="level">Уровень подготовки<span class="required">*</span></label>
+                    <select name="level" id="level" class="js-select">
+                      <option value="">Профессиональный спортсмен</option>
+                      <option value="">Трус</option>
+                      <option value="">Балбес</option>
+                      <option value="">Бывалый</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="field">
+                    <label for="contraindications">Противопоказания</label>
+                    <input type="text" id="contraindications">
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="item_step">
+            <div class="item_title">Ваша цель</div>
+            <div class="field">
+              <div class="label">Чего вы хотите достичь<span class="required">*</span></div>
+              <input type="radio" id="q_mass" name="weight" checked>
+              <label for="q_mass"><span>Набрать мышечную массу</span></label>
+              <input type="radio" id="q_weight" name="weight">
+              <label for="q_weight"><span>Сбросить лишний вес</span></label>
+            </div>
+          </div>
+          <div class="item_step">
+            <div class="item_title">Как с вами связаться?</div>
+            <div class="row">
+              <div class="col">
+                <div class="field">
+                  <label for="q_phone">Телефон<span class="required">*</span></label>
+                  <input type="text" id="q_phone" required>
+                </div>
+              </div>
+              <div class="col">
+                <div class="field">
+                  <label for="q_mail">Электронная почта</label>
+                  <input type="email" id="q_mail">
+                </div>
+              </div>
+            </div>
+            <div class="field textarea">
+              <label for="q_message">Интересующий вопрос</label>
+              <textarea name="" id="q_message" placeholder="Пример: Что нужно брать с собой на тренировку?"></textarea>
+            </div>
+          </div>
+          <a href="#" class="link next">Далее</a>
+          <button type="submit" class="btn">Отправить анкету</button>
+        </form>
       </div>
     </div>
   </section>
