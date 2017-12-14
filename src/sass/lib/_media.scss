@@ -1,32 +1,263 @@
-@media only screen and (max-width : 1600px) {
+@media only screen and (max-width : 1200px) {
 
-}
-
-
-@media only screen and (max-width : 1366px) {
-
-}
-
-@media only screen and (max-width : 1279px) {
-
-}
-
-@media only screen and (max-width : 1023px) {
-
+  .wrap{
+    max-width: 992px;
+  }
+  header{
+    text-align: right;
+    .logo_block{
+      float: left;
+    }
+    .caption,
+    .address{
+      font-size: 0;
+    }
+    .header_phones_wrap{
+      margin-left: 6px;
+    }
+    .header_phones{
+      margin-top: 4px;
+      margin-right: 14px;
+    }
+    .phones_dropdown{
+      position: absolute;
+      top: 36px;
+      right: 10px;
+      width: 185px;
+      background-color: #fff;
+      display: none;
+      border: 1px solid #eaeaea;
+      padding: 20px;
+      text-align: left;
+      &:after{
+        content: '';
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        border: 1px solid #eaeaea;
+      }
+      a{
+        position: relative;
+        z-index: 1;
+        padding: 4px 0;
+      }
+    }
+  }
+  .color_frame__item .name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .top_banner,
+  .top_banner.inner{
+    padding-bottom: 150px;
+  }
+  
 }
 
 @media only screen and (max-width : 992px) {
 
+  .wrap{
+    max-width: 767px;
+  }
+  .advantages .col {
+    width: 33.333%;
+  }
+  .trial_lesson{
+    background-size: cover;
+  }
+  .subtitle, h2 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+  .popup_content .trainer_name{
+    margin: 0;
+  }
+  .stock_block .col{
+    width: 50%;
+  }
+  .footer_logo{
+    width: 30%;
+  }
+  .footer_middle .contacts{
+    width: 70%;
+  }
+  .footer_middle .map{
+    width: 100%;
+    margin-top: 25px;
+  }
+  .footer_middle .socials {
+    padding-top: 10px;
+  }
+  
 }
 
 @media only screen and (max-width : 767px) {
 
+  .contacts_section .col{
+    width: 100%;
+    &.form .col{
+      width: 50%;
+    }
+  }
+  .table_item {
+    width: 100%;
+  }
+  .left_col,
+  .right_col{
+    width: 100%;
+  }
+  .coach_selection{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .breadcrumbs li{
+    font-size: 50px;
+    line-height: 62px;
+  }
+  
+}
+
+@media only screen and (max-width : 600px) {
+  
+  .text_block.two_column{
+    column-count: 1;
+  }
+  .stock_block .col {
+    width: 100%;
+    .stock_item{
+      min-height: auto;
+    }
+  }
+  .slogan{
+    width: auto;
+    padding: 30px 0;
+    &:after{
+      display: none;
+    }
+  }
+  .top_banner:after,
+  .top_banner.inner:after{
+    left: 20%;
+  }
+  .title, h1 {
+    font-size: 60px;
+    line-height: 72px;
+    padding-bottom: 20px;
+  }
+  .gallery_section .figure{
+    display: none;
+  }
+  .photo_gallery{
+    width: 100%;
+  }
+  .top_banner.inner .slogan{
+    width: 100%;
+    padding: 0;
+  }
+
 }
 
 @media only screen and (max-width : 480px) {
+  
+  .service_item .img_block,
+  .team_item .img_block{
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .popup_content .form .col{
+    width: 100%;
+  }
+  .slogan .force{
+    font-size: 90px;
+    padding-top: 22px;
+  }
+  .trial_lesson_block{
+    padding: 26px 20px;
+    .btn{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .advantages .col{
+    width: 50%;
+  }
+  .advantages .img_block{
+    height: 100px;
+    img{
+      max-width: 80px;
+    }
+  }
+  .advantages .caption{
+    padding: 10px 5px;
+  }
+  .footer_logo,
+  .footer_middle .contacts{
+    width: 100%;
+  }
+  .footer_logo{
+    img{
+      width: 80px;
+    }
+  }
+  .title, h1 {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  header .logo_block{
+    font-size: 0;
+  }
+  .popup_nav_overlay .menu_block{
+    padding: 50px 10px 0;
+  }
+  .popup_nav_overlay .nav_close_block{
+    padding: 12px 10px;
+  }
+  .photo_gallery .img_block{
+    height: 140px;
+  }
+  .footer_bottom .copyright{
+    float: none;
+  }
+  .footer_bottom .skyweb{
+    display: inline-block;
+  }
+  .footer_phones .phones_dropdown .link{
+    display: inline-block;
+  }
+  .contacts_section .col.form .col{
+    width: 100%;
+  }
+  .breadcrumbs li{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .logo_main{
+    position: relative;
+    z-index: 1;
+  }
+  .top_banner,
+  .top_banner.inner {
+    padding-bottom: 80px;
+  }
+  .footer_location,
+  .footer_phones{
+    padding-left: 20px;
+  }
+  .footer_location .address{
+    padding-left: 12px;
+  }
 
 }
 
 @media only screen and (max-width : 320px) {
+  
+  .top_banner:after,
+  .top_banner.inner:after{
+    left: 7%;
+  }
 
 }

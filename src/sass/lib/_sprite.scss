@@ -10,248 +10,292 @@
   At the bottom of this section, we provide information about the spritesheet itself
   $spritesheet: width height image $spritesheet-sprites
   */
+$icon_arr_next-disabled-name: 'icon_arr_next-disabled'
+$icon_arr_next-disabled-x: 74px
+$icon_arr_next-disabled-y: 32px
+$icon_arr_next-disabled-offset-x: -74px
+$icon_arr_next-disabled-offset-y: -32px
+$icon_arr_next-disabled-width: 18px
+$icon_arr_next-disabled-height: 32px
+$icon_arr_next-disabled-total-width: 140px
+$icon_arr_next-disabled-total-height: 121px
+$icon_arr_next-disabled-image: 'sprite.png'
+$icon_arr_next-disabled: 74px 32px -74px -32px 18px 32px 140px 121px 'sprite.png' 'icon_arr_next-disabled'
+$icon_arr_next-name: 'icon_arr_next'
+$icon_arr_next-x: 74px
+$icon_arr_next-y: 0px
+$icon_arr_next-offset-x: -74px
+$icon_arr_next-offset-y: 0px
+$icon_arr_next-width: 18px
+$icon_arr_next-height: 32px
+$icon_arr_next-total-width: 140px
+$icon_arr_next-total-height: 121px
+$icon_arr_next-image: 'sprite.png'
+$icon_arr_next: 74px 0px -74px 0px 18px 32px 140px 121px 'sprite.png' 'icon_arr_next'
+$icon_arr_prev-disabled-name: 'icon_arr_prev-disabled'
+$icon_arr_prev-disabled-x: 92px
+$icon_arr_prev-disabled-y: 0px
+$icon_arr_prev-disabled-offset-x: -92px
+$icon_arr_prev-disabled-offset-y: 0px
+$icon_arr_prev-disabled-width: 18px
+$icon_arr_prev-disabled-height: 32px
+$icon_arr_prev-disabled-total-width: 140px
+$icon_arr_prev-disabled-total-height: 121px
+$icon_arr_prev-disabled-image: 'sprite.png'
+$icon_arr_prev-disabled: 92px 0px -92px 0px 18px 32px 140px 121px 'sprite.png' 'icon_arr_prev-disabled'
+$icon_arr_prev-name: 'icon_arr_prev'
+$icon_arr_prev-x: 0px
+$icon_arr_prev-y: 32px
+$icon_arr_prev-offset-x: 0px
+$icon_arr_prev-offset-y: -32px
+$icon_arr_prev-width: 18px
+$icon_arr_prev-height: 32px
+$icon_arr_prev-total-width: 140px
+$icon_arr_prev-total-height: 121px
+$icon_arr_prev-image: 'sprite.png'
+$icon_arr_prev: 0px 32px 0px -32px 18px 32px 140px 121px 'sprite.png' 'icon_arr_prev'
 $icon_back-hover-name: 'icon_back-hover'
-$icon_back-hover-x: 0px
-$icon_back-hover-y: 73px
-$icon_back-hover-offset-x: 0px
-$icon_back-hover-offset-y: -73px
+$icon_back-hover-x: 83px
+$icon_back-hover-y: 88px
+$icon_back-hover-offset-x: -83px
+$icon_back-hover-offset-y: -88px
 $icon_back-hover-width: 27px
 $icon_back-hover-height: 16px
-$icon_back-hover-total-width: 115px
-$icon_back-hover-total-height: 107px
+$icon_back-hover-total-width: 140px
+$icon_back-hover-total-height: 121px
 $icon_back-hover-image: 'sprite.png'
-$icon_back-hover: 0px 73px 0px -73px 27px 16px 115px 107px 'sprite.png' 'icon_back-hover'
+$icon_back-hover: 83px 88px -83px -88px 27px 16px 140px 121px 'sprite.png' 'icon_back-hover'
 $icon_back-name: 'icon_back'
 $icon_back-x: 56px
-$icon_back-y: 56px
+$icon_back-y: 88px
 $icon_back-offset-x: -56px
-$icon_back-offset-y: -56px
+$icon_back-offset-y: -88px
 $icon_back-width: 27px
 $icon_back-height: 16px
-$icon_back-total-width: 115px
-$icon_back-total-height: 107px
+$icon_back-total-width: 140px
+$icon_back-total-height: 121px
 $icon_back-image: 'sprite.png'
-$icon_back: 56px 56px -56px -56px 27px 16px 115px 107px 'sprite.png' 'icon_back'
+$icon_back: 56px 88px -56px -88px 27px 16px 140px 121px 'sprite.png' 'icon_back'
 $icon_clock-name: 'icon_clock'
-$icon_clock-x: 36px
-$icon_clock-y: 89px
-$icon_clock-offset-x: -36px
-$icon_clock-offset-y: -89px
+$icon_clock-x: 72px
+$icon_clock-y: 64px
+$icon_clock-offset-x: -72px
+$icon_clock-offset-y: -64px
 $icon_clock-width: 18px
 $icon_clock-height: 18px
-$icon_clock-total-width: 115px
-$icon_clock-total-height: 107px
+$icon_clock-total-width: 140px
+$icon_clock-total-height: 121px
 $icon_clock-image: 'sprite.png'
-$icon_clock: 36px 89px -36px -89px 18px 18px 115px 107px 'sprite.png' 'icon_clock'
+$icon_clock: 72px 64px -72px -64px 18px 18px 140px 121px 'sprite.png' 'icon_clock'
 $icon_close-hover-name: 'icon_close-hover'
-$icon_close-hover-x: 18px
-$icon_close-hover-y: 89px
-$icon_close-hover-offset-x: -18px
-$icon_close-hover-offset-y: -89px
+$icon_close-hover-x: 110px
+$icon_close-hover-y: 18px
+$icon_close-hover-offset-x: -110px
+$icon_close-hover-offset-y: -18px
 $icon_close-hover-width: 18px
 $icon_close-hover-height: 18px
-$icon_close-hover-total-width: 115px
-$icon_close-hover-total-height: 107px
+$icon_close-hover-total-width: 140px
+$icon_close-hover-total-height: 121px
 $icon_close-hover-image: 'sprite.png'
-$icon_close-hover: 18px 89px -18px -89px 18px 18px 115px 107px 'sprite.png' 'icon_close-hover'
+$icon_close-hover: 110px 18px -110px -18px 18px 18px 140px 121px 'sprite.png' 'icon_close-hover'
 $icon_close-name: 'icon_close'
-$icon_close-x: 0px
-$icon_close-y: 89px
-$icon_close-offset-x: 0px
-$icon_close-offset-y: -89px
+$icon_close-x: 110px
+$icon_close-y: 0px
+$icon_close-offset-x: -110px
+$icon_close-offset-y: 0px
 $icon_close-width: 18px
 $icon_close-height: 18px
-$icon_close-total-width: 115px
-$icon_close-total-height: 107px
+$icon_close-total-width: 140px
+$icon_close-total-height: 121px
 $icon_close-image: 'sprite.png'
-$icon_close: 0px 89px 0px -89px 18px 18px 115px 107px 'sprite.png' 'icon_close'
+$icon_close: 110px 0px -110px 0px 18px 18px 140px 121px 'sprite.png' 'icon_close'
 $icon_dumbbell-active-name: 'icon_dumbbell-active'
-$icon_dumbbell-active-x: 74px
-$icon_dumbbell-active-y: 0px
-$icon_dumbbell-active-offset-x: -74px
-$icon_dumbbell-active-offset-y: 0px
+$icon_dumbbell-active-x: 48px
+$icon_dumbbell-active-y: 64px
+$icon_dumbbell-active-offset-x: -48px
+$icon_dumbbell-active-offset-y: -64px
 $icon_dumbbell-active-width: 24px
 $icon_dumbbell-active-height: 22px
-$icon_dumbbell-active-total-width: 115px
-$icon_dumbbell-active-total-height: 107px
+$icon_dumbbell-active-total-width: 140px
+$icon_dumbbell-active-total-height: 121px
 $icon_dumbbell-active-image: 'sprite.png'
-$icon_dumbbell-active: 74px 0px -74px 0px 24px 22px 115px 107px 'sprite.png' 'icon_dumbbell-active'
+$icon_dumbbell-active: 48px 64px -48px -64px 24px 22px 140px 121px 'sprite.png' 'icon_dumbbell-active'
 $icon_dumbbell-name: 'icon_dumbbell'
-$icon_dumbbell-x: 74px
-$icon_dumbbell-y: 22px
-$icon_dumbbell-offset-x: -74px
-$icon_dumbbell-offset-y: -22px
+$icon_dumbbell-x: 24px
+$icon_dumbbell-y: 64px
+$icon_dumbbell-offset-x: -24px
+$icon_dumbbell-offset-y: -64px
 $icon_dumbbell-width: 24px
 $icon_dumbbell-height: 22px
-$icon_dumbbell-total-width: 115px
-$icon_dumbbell-total-height: 107px
+$icon_dumbbell-total-width: 140px
+$icon_dumbbell-total-height: 121px
 $icon_dumbbell-image: 'sprite.png'
-$icon_dumbbell: 74px 22px -74px -22px 24px 22px 115px 107px 'sprite.png' 'icon_dumbbell'
+$icon_dumbbell: 24px 64px -24px -64px 24px 22px 140px 121px 'sprite.png' 'icon_dumbbell'
 $icon_fitness-active-name: 'icon_fitness-active'
-$icon_fitness-active-x: 0px
-$icon_fitness-active-y: 32px
-$icon_fitness-active-offset-x: 0px
-$icon_fitness-active-offset-y: -32px
+$icon_fitness-active-x: 50px
+$icon_fitness-active-y: 0px
+$icon_fitness-active-offset-x: -50px
+$icon_fitness-active-offset-y: 0px
 $icon_fitness-active-width: 24px
 $icon_fitness-active-height: 24px
-$icon_fitness-active-total-width: 115px
-$icon_fitness-active-total-height: 107px
+$icon_fitness-active-total-width: 140px
+$icon_fitness-active-total-height: 121px
 $icon_fitness-active-image: 'sprite.png'
-$icon_fitness-active: 0px 32px 0px -32px 24px 24px 115px 107px 'sprite.png' 'icon_fitness-active'
+$icon_fitness-active: 50px 0px -50px 0px 24px 24px 140px 121px 'sprite.png' 'icon_fitness-active'
 $icon_fitness-name: 'icon_fitness'
-$icon_fitness-x: 24px
-$icon_fitness-y: 32px
-$icon_fitness-offset-x: -24px
-$icon_fitness-offset-y: -32px
+$icon_fitness-x: 0px
+$icon_fitness-y: 64px
+$icon_fitness-offset-x: 0px
+$icon_fitness-offset-y: -64px
 $icon_fitness-width: 24px
 $icon_fitness-height: 24px
-$icon_fitness-total-width: 115px
-$icon_fitness-total-height: 107px
+$icon_fitness-total-width: 140px
+$icon_fitness-total-height: 121px
 $icon_fitness-image: 'sprite.png'
-$icon_fitness: 24px 32px -24px -32px 24px 24px 115px 107px 'sprite.png' 'icon_fitness'
+$icon_fitness: 0px 64px 0px -64px 24px 24px 140px 121px 'sprite.png' 'icon_fitness'
 $icon_insta-hover-name: 'icon_insta-hover'
-$icon_insta-hover-x: 98px
-$icon_insta-hover-y: 66px
-$icon_insta-hover-offset-x: -98px
-$icon_insta-hover-offset-y: -66px
+$icon_insta-hover-x: 110px
+$icon_insta-hover-y: 36px
+$icon_insta-hover-offset-x: -110px
+$icon_insta-hover-offset-y: -36px
 $icon_insta-hover-width: 17px
 $icon_insta-hover-height: 18px
-$icon_insta-hover-total-width: 115px
-$icon_insta-hover-total-height: 107px
+$icon_insta-hover-total-width: 140px
+$icon_insta-hover-total-height: 121px
 $icon_insta-hover-image: 'sprite.png'
-$icon_insta-hover: 98px 66px -98px -66px 17px 18px 115px 107px 'sprite.png' 'icon_insta-hover'
+$icon_insta-hover: 110px 36px -110px -36px 17px 18px 140px 121px 'sprite.png' 'icon_insta-hover'
 $icon_insta-name: 'icon_insta'
-$icon_insta-x: 98px
-$icon_insta-y: 48px
-$icon_insta-offset-x: -98px
-$icon_insta-offset-y: -48px
+$icon_insta-x: 110px
+$icon_insta-y: 54px
+$icon_insta-offset-x: -110px
+$icon_insta-offset-y: -54px
 $icon_insta-width: 17px
 $icon_insta-height: 18px
-$icon_insta-total-width: 115px
-$icon_insta-total-height: 107px
+$icon_insta-total-width: 140px
+$icon_insta-total-height: 121px
 $icon_insta-image: 'sprite.png'
-$icon_insta: 98px 48px -98px -48px 17px 18px 115px 107px 'sprite.png' 'icon_insta'
+$icon_insta: 110px 54px -110px -54px 17px 18px 140px 121px 'sprite.png' 'icon_insta'
 $icon_location-hover-name: 'icon_location-hover'
-$icon_location-hover-x: 66px
-$icon_location-hover-y: 89px
-$icon_location-hover-offset-x: -66px
-$icon_location-hover-offset-y: -89px
+$icon_location-hover-x: 128px
+$icon_location-hover-y: 0px
+$icon_location-hover-offset-x: -128px
+$icon_location-hover-offset-y: 0px
 $icon_location-hover-width: 12px
 $icon_location-hover-height: 18px
-$icon_location-hover-total-width: 115px
-$icon_location-hover-total-height: 107px
+$icon_location-hover-total-width: 140px
+$icon_location-hover-total-height: 121px
 $icon_location-hover-image: 'sprite.png'
-$icon_location-hover: 66px 89px -66px -89px 12px 18px 115px 107px 'sprite.png' 'icon_location-hover'
+$icon_location-hover: 128px 0px -128px 0px 12px 18px 140px 121px 'sprite.png' 'icon_location-hover'
 $icon_location-name: 'icon_location'
-$icon_location-x: 54px
-$icon_location-y: 89px
-$icon_location-offset-x: -54px
-$icon_location-offset-y: -89px
+$icon_location-x: 128px
+$icon_location-y: 18px
+$icon_location-offset-x: -128px
+$icon_location-offset-y: -18px
 $icon_location-width: 12px
 $icon_location-height: 18px
-$icon_location-total-width: 115px
-$icon_location-total-height: 107px
+$icon_location-total-width: 140px
+$icon_location-total-height: 121px
 $icon_location-image: 'sprite.png'
-$icon_location: 54px 89px -54px -89px 12px 18px 115px 107px 'sprite.png' 'icon_location'
+$icon_location: 128px 18px -128px -18px 12px 18px 140px 121px 'sprite.png' 'icon_location'
 $icon_man-active-name: 'icon_man-active'
-$icon_man-active-x: 48px
+$icon_man-active-x: 42px
 $icon_man-active-y: 32px
-$icon_man-active-offset-x: -48px
+$icon_man-active-offset-x: -42px
 $icon_man-active-offset-y: -32px
 $icon_man-active-width: 24px
 $icon_man-active-height: 24px
-$icon_man-active-total-width: 115px
-$icon_man-active-total-height: 107px
+$icon_man-active-total-width: 140px
+$icon_man-active-total-height: 121px
 $icon_man-active-image: 'sprite.png'
-$icon_man-active: 48px 32px -48px -32px 24px 24px 115px 107px 'sprite.png' 'icon_man-active'
+$icon_man-active: 42px 32px -42px -32px 24px 24px 140px 121px 'sprite.png' 'icon_man-active'
 $icon_man-name: 'icon_man'
-$icon_man-x: 50px
-$icon_man-y: 0px
-$icon_man-offset-x: -50px
-$icon_man-offset-y: 0px
+$icon_man-x: 18px
+$icon_man-y: 32px
+$icon_man-offset-x: -18px
+$icon_man-offset-y: -32px
 $icon_man-width: 24px
 $icon_man-height: 24px
-$icon_man-total-width: 115px
-$icon_man-total-height: 107px
+$icon_man-total-width: 140px
+$icon_man-total-height: 121px
 $icon_man-image: 'sprite.png'
-$icon_man: 50px 0px -50px 0px 24px 24px 115px 107px 'sprite.png' 'icon_man'
+$icon_man: 18px 32px -18px -32px 24px 24px 140px 121px 'sprite.png' 'icon_man'
 $icon_menu-hover-name: 'icon_menu-hover'
-$icon_menu-hover-x: 28px
-$icon_menu-hover-y: 56px
-$icon_menu-hover-offset-x: -28px
-$icon_menu-hover-offset-y: -56px
+$icon_menu-hover-x: 0px
+$icon_menu-hover-y: 88px
+$icon_menu-hover-offset-x: 0px
+$icon_menu-hover-offset-y: -88px
 $icon_menu-hover-width: 28px
 $icon_menu-hover-height: 17px
-$icon_menu-hover-total-width: 115px
-$icon_menu-hover-total-height: 107px
+$icon_menu-hover-total-width: 140px
+$icon_menu-hover-total-height: 121px
 $icon_menu-hover-image: 'sprite.png'
-$icon_menu-hover: 28px 56px -28px -56px 28px 17px 115px 107px 'sprite.png' 'icon_menu-hover'
+$icon_menu-hover: 0px 88px 0px -88px 28px 17px 140px 121px 'sprite.png' 'icon_menu-hover'
 $icon_menu-name: 'icon_menu'
-$icon_menu-x: 0px
-$icon_menu-y: 56px
-$icon_menu-offset-x: 0px
-$icon_menu-offset-y: -56px
+$icon_menu-x: 28px
+$icon_menu-y: 88px
+$icon_menu-offset-x: -28px
+$icon_menu-offset-y: -88px
 $icon_menu-width: 28px
 $icon_menu-height: 17px
-$icon_menu-total-width: 115px
-$icon_menu-total-height: 107px
+$icon_menu-total-width: 140px
+$icon_menu-total-height: 121px
 $icon_menu-image: 'sprite.png'
-$icon_menu: 0px 56px 0px -56px 28px 17px 115px 107px 'sprite.png' 'icon_menu'
+$icon_menu: 28px 88px -28px -88px 28px 17px 140px 121px 'sprite.png' 'icon_menu'
 $icon_next-hover-name: 'icon_next-hover'
-$icon_next-hover-x: 79px
-$icon_next-hover-y: 73px
-$icon_next-hover-offset-x: -79px
-$icon_next-hover-offset-y: -73px
+$icon_next-hover-x: 39px
+$icon_next-hover-y: 105px
+$icon_next-hover-offset-x: -39px
+$icon_next-hover-offset-y: -105px
 $icon_next-hover-width: 19px
 $icon_next-hover-height: 11px
-$icon_next-hover-total-width: 115px
-$icon_next-hover-total-height: 107px
+$icon_next-hover-total-width: 140px
+$icon_next-hover-total-height: 121px
 $icon_next-hover-image: 'sprite.png'
-$icon_next-hover: 79px 73px -79px -73px 19px 11px 115px 107px 'sprite.png' 'icon_next-hover'
+$icon_next-hover: 39px 105px -39px -105px 19px 11px 140px 121px 'sprite.png' 'icon_next-hover'
 $icon_next-name: 'icon_next'
-$icon_next-x: 74px
-$icon_next-y: 44px
-$icon_next-offset-x: -74px
-$icon_next-offset-y: -44px
+$icon_next-x: 20px
+$icon_next-y: 105px
+$icon_next-offset-x: -20px
+$icon_next-offset-y: -105px
 $icon_next-width: 19px
 $icon_next-height: 11px
-$icon_next-total-width: 115px
-$icon_next-total-height: 107px
+$icon_next-total-width: 140px
+$icon_next-total-height: 121px
 $icon_next-image: 'sprite.png'
-$icon_next: 74px 44px -74px -44px 19px 11px 115px 107px 'sprite.png' 'icon_next'
+$icon_next: 20px 105px -20px -105px 19px 11px 140px 121px 'sprite.png' 'icon_next'
 $icon_phone-hover-name: 'icon_phone-hover'
-$icon_phone-hover-x: 47px
-$icon_phone-hover-y: 73px
-$icon_phone-hover-offset-x: -47px
-$icon_phone-hover-offset-y: -73px
+$icon_phone-hover-x: 110px
+$icon_phone-hover-y: 72px
+$icon_phone-hover-offset-x: -110px
+$icon_phone-hover-offset-y: -72px
 $icon_phone-hover-width: 16px
 $icon_phone-hover-height: 16px
-$icon_phone-hover-total-width: 115px
-$icon_phone-hover-total-height: 107px
+$icon_phone-hover-total-width: 140px
+$icon_phone-hover-total-height: 121px
 $icon_phone-hover-image: 'sprite.png'
-$icon_phone-hover: 47px 73px -47px -73px 16px 16px 115px 107px 'sprite.png' 'icon_phone-hover'
+$icon_phone-hover: 110px 72px -110px -72px 16px 16px 140px 121px 'sprite.png' 'icon_phone-hover'
 $icon_phone-name: 'icon_phone'
-$icon_phone-x: 63px
-$icon_phone-y: 73px
-$icon_phone-offset-x: -63px
-$icon_phone-offset-y: -73px
+$icon_phone-x: 110px
+$icon_phone-y: 88px
+$icon_phone-offset-x: -110px
+$icon_phone-offset-y: -88px
 $icon_phone-width: 16px
 $icon_phone-height: 16px
-$icon_phone-total-width: 115px
-$icon_phone-total-height: 107px
+$icon_phone-total-width: 140px
+$icon_phone-total-height: 121px
 $icon_phone-image: 'sprite.png'
-$icon_phone: 63px 73px -63px -73px 16px 16px 115px 107px 'sprite.png' 'icon_phone'
+$icon_phone: 110px 88px -110px -88px 16px 16px 140px 121px 'sprite.png' 'icon_phone'
 $icon_right-name: 'icon_right'
-$icon_right-x: 83px
-$icon_right-y: 56px
-$icon_right-offset-x: -83px
-$icon_right-offset-y: -56px
+$icon_right-x: 128px
+$icon_right-y: 36px
+$icon_right-offset-x: -128px
+$icon_right-offset-y: -36px
 $icon_right-width: 10px
 $icon_right-height: 16px
-$icon_right-total-width: 115px
-$icon_right-total-height: 107px
+$icon_right-total-width: 140px
+$icon_right-total-height: 121px
 $icon_right-image: 'sprite.png'
-$icon_right: 83px 56px -83px -56px 10px 16px 115px 107px 'sprite.png' 'icon_right'
+$icon_right: 128px 36px -128px -36px 10px 16px 140px 121px 'sprite.png' 'icon_right'
 $icon_view-name: 'icon_view'
 $icon_view-x: 0px
 $icon_view-y: 0px
@@ -259,70 +303,70 @@ $icon_view-offset-x: 0px
 $icon_view-offset-y: 0px
 $icon_view-width: 50px
 $icon_view-height: 32px
-$icon_view-total-width: 115px
-$icon_view-total-height: 107px
+$icon_view-total-width: 140px
+$icon_view-total-height: 121px
 $icon_view-image: 'sprite.png'
-$icon_view: 0px 0px 0px 0px 50px 32px 115px 107px 'sprite.png' 'icon_view'
+$icon_view: 0px 0px 0px 0px 50px 32px 140px 121px 'sprite.png' 'icon_view'
 $icon_vk-hover-name: 'icon_vk-hover'
-$icon_vk-hover-x: 78px
-$icon_vk-hover-y: 89px
-$icon_vk-hover-offset-x: -78px
-$icon_vk-hover-offset-y: -89px
+$icon_vk-hover-x: 58px
+$icon_vk-hover-y: 105px
+$icon_vk-hover-offset-x: -58px
+$icon_vk-hover-offset-y: -105px
 $icon_vk-hover-width: 18px
 $icon_vk-hover-height: 10px
-$icon_vk-hover-total-width: 115px
-$icon_vk-hover-total-height: 107px
+$icon_vk-hover-total-width: 140px
+$icon_vk-hover-total-height: 121px
 $icon_vk-hover-image: 'sprite.png'
-$icon_vk-hover: 78px 89px -78px -89px 18px 10px 115px 107px 'sprite.png' 'icon_vk-hover'
+$icon_vk-hover: 58px 105px -58px -105px 18px 10px 140px 121px 'sprite.png' 'icon_vk-hover'
 $icon_vk-name: 'icon_vk'
-$icon_vk-x: 96px
-$icon_vk-y: 89px
-$icon_vk-offset-x: -96px
-$icon_vk-offset-y: -89px
+$icon_vk-x: 76px
+$icon_vk-y: 105px
+$icon_vk-offset-x: -76px
+$icon_vk-offset-y: -105px
 $icon_vk-width: 18px
 $icon_vk-height: 10px
-$icon_vk-total-width: 115px
-$icon_vk-total-height: 107px
+$icon_vk-total-width: 140px
+$icon_vk-total-height: 121px
 $icon_vk-image: 'sprite.png'
-$icon_vk: 96px 89px -96px -89px 18px 10px 115px 107px 'sprite.png' 'icon_vk'
+$icon_vk: 76px 105px -76px -105px 18px 10px 140px 121px 'sprite.png' 'icon_vk'
 $icon_woman-active-name: 'icon_woman-active'
-$icon_woman-active-x: 98px
-$icon_woman-active-y: 24px
-$icon_woman-active-offset-x: -98px
-$icon_woman-active-offset-y: -24px
+$icon_woman-active-x: 92px
+$icon_woman-active-y: 32px
+$icon_woman-active-offset-x: -92px
+$icon_woman-active-offset-y: -32px
 $icon_woman-active-width: 17px
 $icon_woman-active-height: 24px
-$icon_woman-active-total-width: 115px
-$icon_woman-active-total-height: 107px
+$icon_woman-active-total-width: 140px
+$icon_woman-active-total-height: 121px
 $icon_woman-active-image: 'sprite.png'
-$icon_woman-active: 98px 24px -98px -24px 17px 24px 115px 107px 'sprite.png' 'icon_woman-active'
+$icon_woman-active: 92px 32px -92px -32px 17px 24px 140px 121px 'sprite.png' 'icon_woman-active'
 $icon_woman-name: 'icon_woman'
-$icon_woman-x: 98px
-$icon_woman-y: 0px
-$icon_woman-offset-x: -98px
-$icon_woman-offset-y: 0px
+$icon_woman-x: 92px
+$icon_woman-y: 56px
+$icon_woman-offset-x: -92px
+$icon_woman-offset-y: -56px
 $icon_woman-width: 17px
 $icon_woman-height: 24px
-$icon_woman-total-width: 115px
-$icon_woman-total-height: 107px
+$icon_woman-total-width: 140px
+$icon_woman-total-height: 121px
 $icon_woman-image: 'sprite.png'
-$icon_woman: 98px 0px -98px 0px 17px 24px 115px 107px 'sprite.png' 'icon_woman'
+$icon_woman: 92px 56px -92px -56px 17px 24px 140px 121px 'sprite.png' 'icon_woman'
 $input_upload-folder-name: 'input_upload-folder'
-$input_upload-folder-x: 27px
-$input_upload-folder-y: 73px
-$input_upload-folder-offset-x: -27px
-$input_upload-folder-offset-y: -73px
+$input_upload-folder-x: 0px
+$input_upload-folder-y: 105px
+$input_upload-folder-offset-x: 0px
+$input_upload-folder-offset-y: -105px
 $input_upload-folder-width: 20px
 $input_upload-folder-height: 16px
-$input_upload-folder-total-width: 115px
-$input_upload-folder-total-height: 107px
+$input_upload-folder-total-width: 140px
+$input_upload-folder-total-height: 121px
 $input_upload-folder-image: 'sprite.png'
-$input_upload-folder: 27px 73px -27px -73px 20px 16px 115px 107px 'sprite.png' 'input_upload-folder'
-$spritesheet-width: 115px
-$spritesheet-height: 107px
+$input_upload-folder: 0px 105px 0px -105px 20px 16px 140px 121px 'sprite.png' 'input_upload-folder'
+$spritesheet-width: 140px
+$spritesheet-height: 121px
 $spritesheet-image: 'sprite.png'
-$spritesheet-sprites: $icon_back-hover $icon_back $icon_clock $icon_close-hover $icon_close $icon_dumbbell-active $icon_dumbbell $icon_fitness-active $icon_fitness $icon_insta-hover $icon_insta $icon_location-hover $icon_location $icon_man-active $icon_man $icon_menu-hover $icon_menu $icon_next-hover $icon_next $icon_phone-hover $icon_phone $icon_right $icon_view $icon_vk-hover $icon_vk $icon_woman-active $icon_woman $input_upload-folder
-$spritesheet: 115px 107px 'sprite.png' $spritesheet-sprites
+$spritesheet-sprites: $icon_arr_next-disabled $icon_arr_next $icon_arr_prev-disabled $icon_arr_prev $icon_back-hover $icon_back $icon_clock $icon_close-hover $icon_close $icon_dumbbell-active $icon_dumbbell $icon_fitness-active $icon_fitness $icon_insta-hover $icon_insta $icon_location-hover $icon_location $icon_man-active $icon_man $icon_menu-hover $icon_menu $icon_next-hover $icon_next $icon_phone-hover $icon_phone $icon_right $icon_view $icon_vk-hover $icon_vk $icon_woman-active $icon_woman $input_upload-folder
+$spritesheet: 140px 121px 'sprite.png' $spritesheet-sprites
 
 /*
   The provided mixins are intended to be used with the array-like variables

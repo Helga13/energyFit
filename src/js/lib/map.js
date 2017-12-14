@@ -252,5 +252,5 @@
 
   function resizeMap() {
     if(typeof map =="undefined") return;
-    setTimeout( function(){initMapPopup();} , 100);
+    setTimeout( function(){initMapPopup();} , 10);
   }

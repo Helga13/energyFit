@@ -79,11 +79,12 @@ $(document).ready(function () {
           $('header').css('z-index', '11');
         }
     });
-//	$('.popup_close').click(function (e) {
-//         e.preventDefault();
-//           $(this).parents('.popup').css('display', 'none');
-//           $('body').css('overflow', 'auto'); 
-//    });
+	$('.popup_close').click(function (e) {
+      e.preventDefault();
+        $(this).parents('.popup').css('display', 'none');
+        $('body').css('overflow', 'auto'); 
+        $('header').css('z-index', '11');
+    });
     $('.popup .popup_content').click(function(e) {
 		e.stopPropagation();
 	}); 
@@ -114,7 +115,41 @@ $(document).ready(function () {
  
   // media
   
-  if($(window).width() > 767) {
+  if($(window).width() < 1201) {
+    
+    $('.header_phones').on('click', function(){
+      $(this).next('.phones_dropdown').slideToggle();
+    })
+    
+  }
+  
+  if($(window).width() < 993) {
+    
+    $('.color_frame').slick({
+      infinite: false,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 481,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    
+  }
+  
+  if($(window).width() > 768) {
     
     $('.js-popupMap').click(function (e) {
       e.preventDefault();
@@ -122,7 +157,8 @@ $(document).ready(function () {
       var DataId = $(this).attr('data-id');
       if (typeof DataId == "string") {
         $('#'+DataId).css('display', 'flex');
-        $('body').css('overflow', 'hidden');  
+        $('body').css('overflow', 'hidden'); 
+        $('header').css('z-index', '10');
       }
     });
     $('.popup').click(function (e) {
@@ -130,12 +166,14 @@ $(document).ready(function () {
       if (e.target == this) {
         $(this).css('display', 'none');
         $('body').css('overflow', 'auto'); 
+        $('header').css('z-index', '11');
       }
     });
 	$('.popup_close').click(function (e) {
       e.preventDefault();
         $(this).parents('.popup').css('display', 'none');
         $('body').css('overflow', 'auto'); 
+        $('header').css('z-index', '11');
     });
     $('.popup .popup_content').click(function(e) {
       e.stopPropagation();
